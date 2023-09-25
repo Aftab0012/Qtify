@@ -8,6 +8,12 @@ function App() {
     <div className="w-full bg-black">
       <Navbar />
       <Hero />
+      <div className="flex flex-wrap justify-center gap-2">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
