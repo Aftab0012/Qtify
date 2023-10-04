@@ -15,7 +15,7 @@ function Navbar() {
           <input
             type="search"
             placeholder="Search"
-            className="rounded-full pl-2 p-2 xl:w-[500px] md:w-[300px] sm:w-[200px]"
+            className="border-solid h-[40px] rounded-full pl-2 p-3 xl:w-[500px] md:w-[300px] sm:w-[200px]"
           />
         </div>
         <div>
