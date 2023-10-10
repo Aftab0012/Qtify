@@ -1,12 +1,11 @@
-import "./App.css";
-import Card from "./Component/Card";
-import CardContainer from "./Component/CardContainer";
-import Hero from "./Component/Hero";
-import Navbar from "./Component/Navbar";
+import './App.css';
+import CardContainer from './Component/CardContainer';
+import Hero from './Component/Hero';
+import Navbar from './Component/Navbar';
 
 function App() {
   return (
-    <div className="w-full bg-black">
+    <div className="w-full h-full">
       <Navbar />
       <Hero />
       <CardContainer />

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
           <img
             className="object-contain w-full h-[60px]"
             src="/qtify.png"
-            alt="qtify image"
+            alt="qtify pic"
           />
         </div>
         <div>

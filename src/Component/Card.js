@@ -2,9 +2,9 @@ import React from 'react';
 
 const Card = ({ image, title, follows }) => {
   return (
-    <div className="w-[250px] h-auto">
+    <div className=" w-[250px]">
       <img
-        className="h-auto rounded-tl-xl rounded-tr-xl "
+        className="w-auto h-auto rounded-tl-xl rounded-tr-xl "
         src={image}
         alt="artist-pics"
       />
@@ -13,7 +13,7 @@ const Card = ({ image, title, follows }) => {
           {follows}
         </span>
       </p>
-      <p className="text-2xl text-white">{title}</p>
+      <p className="pt-2 pl-2 text-xl leading-6 text-white">{title}</p>
     </div>
   );
 };
