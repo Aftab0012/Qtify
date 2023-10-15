@@ -180,6 +180,10 @@ function CardContainer() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <div className="flex items-center justify-center w-full mt-20">
+        <BasicAccordion />
+      </div>
     </div>
   );
 }
