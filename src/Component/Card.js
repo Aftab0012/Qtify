@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ image, title, follows }) => {
   return (
-    <div className=" w-[250px]">
+    <div className=" w-[250px] h-1/3">
       <img
         className="w-auto h-auto rounded-tl-xl rounded-tr-xl "
         src={image}
